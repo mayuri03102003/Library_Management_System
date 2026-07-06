@@ -8,4 +8,4 @@ app.include_router(book_router)
 
 @app.get("/")
 def home():
-    return {"message": "Library Management System API"}
+    return {"message": "Library Management System API - Version 2"}
